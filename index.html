@@ -7,24 +7,25 @@
 	<meta charset="utf-8"/>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8">
 	<link rel="stylesheet" href="style.css">
+	<script src="script.js"></script>
 
-	
 </head>
 <body style="margin: 0px">
 
 	<div class="menu">
-		<h1>Milošova odborná škola</h1>
+		<h1> Milošova odborná škola</h1>
 	</div>
 	<div class="left-sidebar">
-		<ul>
-			<li>Hlavní stránka</li>
-			<li>Rozvrh</li>
-			<li>Kontakt</li>
-			<li>O naší škole</li>
+		<ul style="list-style-type:none;">
+			<li><button class="sidebar" id="btn-novinky">Hlavní stránka</button></li>
+			<li><button class="sidebar" id="btn-rozvrh">Rozvrh</button></li>
+			<li><button class="sidebar" id="btn-contact">Kontakt</button></li>
+			<li><button class="sidebar" id="btn-about">O naší škole</button></li>
+			<li><button class="zmena">Změň mě</button></li>
 		</ul>
 	</div>
 	<div class="main">
-		<iframe src="rozvrh.html" width="100%" height="300" style="border: solid black 2px;">
+		<iframe id="ifr-main" src="novinky.html" width="100%" height="800" style="border: solid black 2px;">
 	</div>
 	<div class="footer">
 		<pre>Vytvořil Miloš Tesař C3b</pre>
